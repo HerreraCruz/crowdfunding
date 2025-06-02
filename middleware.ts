@@ -8,6 +8,7 @@ const isPublicRoute = createRouteMatcher([
   "/dashboard/inversor",
   "/contact",
   "/auth/(.*)",
+  "/api/webhooks/clerk",
 ]);
 
 export default clerkMiddleware((auth, req) => {
